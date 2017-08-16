@@ -1,0 +1,285 @@
+2016-09-08 17:08:23,606 [org.plugbase.analysis.config.Configuration]-[INFO] Configuration Init!
+2016-09-08 17:08:24,213 [org.apache.hadoop.util.NativeCodeLoader]-[WARN] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-09-08 17:08:26,643 []-[WARN] Your hostname, Deep-20100325NL resolves to a loopback/non-reachable address: fe80:0:0:0:0:5efe:c0a8:7e01%net12, but we couldn't find any external IP address!
+2016-09-08 17:08:28,512 [org.apache.hadoop.util.Shell]-[ERROR] Failed to locate the winutils binary in the hadoop binary path
+java.io.IOException: Could not locate executable null\bin\winutils.exe in the Hadoop binaries.
+	at org.apache.hadoop.util.Shell.getQualifiedBinPath(Shell.java:278)
+	at org.apache.hadoop.util.Shell.getWinUtilsPath(Shell.java:300)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:293)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:76)
+	at org.apache.hadoop.conf.Configuration.getTrimmedStrings(Configuration.java:1546)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:519)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:453)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:136)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2433)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:364)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:166)
+	at org.plugbase.analysis.util.HadoopFileSystem.getProperties(HadoopFileSystem.java:39)
+	at org.plugbase.analysis.config.Configuration.<clinit>(Configuration.java:66)
+	at org.plugbase.analysis.parser.Parser.main(Parser.java:403)
+2016-09-08 17:54:25,083 [org.plugbase.analysis.config.Configuration]-[INFO] Configuration Init!
+2016-09-08 17:54:25,323 [org.apache.hadoop.util.NativeCodeLoader]-[WARN] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-09-08 17:54:27,635 []-[WARN] Your hostname, Deep-20100325NL resolves to a loopback/non-reachable address: fe80:0:0:0:0:5efe:c0a8:7e01%net12, but we couldn't find any external IP address!
+2016-09-08 17:54:29,120 [org.apache.hadoop.util.Shell]-[ERROR] Failed to locate the winutils binary in the hadoop binary path
+java.io.IOException: Could not locate executable null\bin\winutils.exe in the Hadoop binaries.
+	at org.apache.hadoop.util.Shell.getQualifiedBinPath(Shell.java:278)
+	at org.apache.hadoop.util.Shell.getWinUtilsPath(Shell.java:300)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:293)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:76)
+	at org.apache.hadoop.conf.Configuration.getTrimmedStrings(Configuration.java:1546)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:519)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:453)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:136)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2433)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:364)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:166)
+	at org.plugbase.analysis.util.HadoopFileSystem.getProperties(HadoopFileSystem.java:39)
+	at org.plugbase.analysis.config.Configuration.<clinit>(Configuration.java:66)
+	at org.plugbase.analysis.parser.Parser.main(Parser.java:404)
+2016-09-08 17:54:52,871 [org.plugbase.analysis.config.Configuration]-[INFO] Configuration Init!
+2016-09-08 17:54:53,093 [org.apache.hadoop.util.NativeCodeLoader]-[WARN] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-09-08 17:54:55,371 []-[WARN] Your hostname, Deep-20100325NL resolves to a loopback/non-reachable address: fe80:0:0:0:0:5efe:c0a8:7e01%net12, but we couldn't find any external IP address!
+2016-09-08 17:54:56,258 [org.apache.hadoop.util.Shell]-[ERROR] Failed to locate the winutils binary in the hadoop binary path
+java.io.IOException: Could not locate executable null\bin\winutils.exe in the Hadoop binaries.
+	at org.apache.hadoop.util.Shell.getQualifiedBinPath(Shell.java:278)
+	at org.apache.hadoop.util.Shell.getWinUtilsPath(Shell.java:300)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:293)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:76)
+	at org.apache.hadoop.conf.Configuration.getTrimmedStrings(Configuration.java:1546)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:519)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:453)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:136)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2433)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:364)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:166)
+	at org.plugbase.analysis.util.HadoopFileSystem.getProperties(HadoopFileSystem.java:39)
+	at org.plugbase.analysis.config.Configuration.<clinit>(Configuration.java:66)
+	at org.plugbase.analysis.parser.Parser.main(Parser.java:404)
+2016-09-08 17:55:13,998 [org.plugbase.analysis.config.Configuration]-[INFO] Configuration Init!
+2016-09-08 17:55:14,219 [org.apache.hadoop.util.NativeCodeLoader]-[WARN] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-09-08 17:55:16,512 []-[WARN] Your hostname, Deep-20100325NL resolves to a loopback/non-reachable address: fe80:0:0:0:0:5efe:c0a8:7e01%net12, but we couldn't find any external IP address!
+2016-09-08 17:55:17,420 [org.apache.hadoop.util.Shell]-[ERROR] Failed to locate the winutils binary in the hadoop binary path
+java.io.IOException: Could not locate executable null\bin\winutils.exe in the Hadoop binaries.
+	at org.apache.hadoop.util.Shell.getQualifiedBinPath(Shell.java:278)
+	at org.apache.hadoop.util.Shell.getWinUtilsPath(Shell.java:300)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:293)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:76)
+	at org.apache.hadoop.conf.Configuration.getTrimmedStrings(Configuration.java:1546)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:519)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:453)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:136)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2433)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:364)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:166)
+	at org.plugbase.analysis.util.HadoopFileSystem.getProperties(HadoopFileSystem.java:39)
+	at org.plugbase.analysis.config.Configuration.<clinit>(Configuration.java:66)
+	at org.plugbase.analysis.parser.Parser.main(Parser.java:404)
+2016-09-08 18:32:35,926 [org.plugbase.analysis.config.Configuration]-[INFO] Configuration Init!
+2016-09-08 18:32:36,160 [org.apache.hadoop.util.NativeCodeLoader]-[WARN] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-09-08 18:32:38,448 []-[WARN] Your hostname, Deep-20100325NL resolves to a loopback/non-reachable address: fe80:0:0:0:0:5efe:c0a8:7e01%net12, but we couldn't find any external IP address!
+2016-09-08 18:32:39,950 [org.apache.hadoop.util.Shell]-[ERROR] Failed to locate the winutils binary in the hadoop binary path
+java.io.IOException: Could not locate executable null\bin\winutils.exe in the Hadoop binaries.
+	at org.apache.hadoop.util.Shell.getQualifiedBinPath(Shell.java:278)
+	at org.apache.hadoop.util.Shell.getWinUtilsPath(Shell.java:300)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:293)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:76)
+	at org.apache.hadoop.conf.Configuration.getTrimmedStrings(Configuration.java:1546)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:519)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:453)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:136)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2433)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:364)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:166)
+	at org.plugbase.analysis.util.HadoopFileSystem.getProperties(HadoopFileSystem.java:39)
+	at org.plugbase.analysis.config.Configuration.<clinit>(Configuration.java:66)
+	at org.plugbase.analysis.parser.Parser.main(Parser.java:404)
+2016-09-08 18:33:14,050 [org.plugbase.analysis.config.Configuration]-[INFO] Configuration Init!
+2016-09-08 18:33:14,290 [org.apache.hadoop.util.NativeCodeLoader]-[WARN] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-09-08 18:33:16,573 []-[WARN] Your hostname, Deep-20100325NL resolves to a loopback/non-reachable address: fe80:0:0:0:0:5efe:c0a8:7e01%net12, but we couldn't find any external IP address!
+2016-09-08 18:33:17,467 [org.apache.hadoop.util.Shell]-[ERROR] Failed to locate the winutils binary in the hadoop binary path
+java.io.IOException: Could not locate executable null\bin\winutils.exe in the Hadoop binaries.
+	at org.apache.hadoop.util.Shell.getQualifiedBinPath(Shell.java:278)
+	at org.apache.hadoop.util.Shell.getWinUtilsPath(Shell.java:300)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:293)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:76)
+	at org.apache.hadoop.conf.Configuration.getTrimmedStrings(Configuration.java:1546)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:519)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:453)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:136)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2433)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:364)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:166)
+	at org.plugbase.analysis.util.HadoopFileSystem.getProperties(HadoopFileSystem.java:39)
+	at org.plugbase.analysis.config.Configuration.<clinit>(Configuration.java:66)
+	at org.plugbase.analysis.parser.Parser.main(Parser.java:404)
+2016-09-08 18:44:35,109 [org.plugbase.analysis.config.Configuration]-[INFO] Configuration Init!
+2016-09-08 18:44:35,339 [org.apache.hadoop.util.NativeCodeLoader]-[WARN] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-09-08 18:44:37,650 []-[WARN] Your hostname, Deep-20100325NL resolves to a loopback/non-reachable address: fe80:0:0:0:0:5efe:c0a8:7e01%net12, but we couldn't find any external IP address!
+2016-09-08 18:44:39,124 [org.apache.hadoop.util.Shell]-[ERROR] Failed to locate the winutils binary in the hadoop binary path
+java.io.IOException: Could not locate executable null\bin\winutils.exe in the Hadoop binaries.
+	at org.apache.hadoop.util.Shell.getQualifiedBinPath(Shell.java:278)
+	at org.apache.hadoop.util.Shell.getWinUtilsPath(Shell.java:300)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:293)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:76)
+	at org.apache.hadoop.conf.Configuration.getTrimmedStrings(Configuration.java:1546)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:519)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:453)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:136)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2433)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:364)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:166)
+	at org.plugbase.analysis.util.HadoopFileSystem.getProperties(HadoopFileSystem.java:39)
+	at org.plugbase.analysis.config.Configuration.<clinit>(Configuration.java:66)
+	at org.plugbase.analysis.parser.Parser.main(Parser.java:404)
+2016-09-08 19:21:13,259 [org.plugbase.analysis.config.Configuration]-[INFO] Configuration Init!
+2016-09-08 19:21:13,478 [org.apache.hadoop.util.NativeCodeLoader]-[WARN] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-09-08 19:21:15,773 []-[WARN] Your hostname, Deep-20100325NL resolves to a loopback/non-reachable address: fe80:0:0:0:0:5efe:c0a8:7e01%net12, but we couldn't find any external IP address!
+2016-09-08 19:21:17,317 [org.apache.hadoop.util.Shell]-[ERROR] Failed to locate the winutils binary in the hadoop binary path
+java.io.IOException: Could not locate executable null\bin\winutils.exe in the Hadoop binaries.
+	at org.apache.hadoop.util.Shell.getQualifiedBinPath(Shell.java:278)
+	at org.apache.hadoop.util.Shell.getWinUtilsPath(Shell.java:300)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:293)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:76)
+	at org.apache.hadoop.conf.Configuration.getTrimmedStrings(Configuration.java:1546)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:519)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:453)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:136)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2433)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:364)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:166)
+	at org.plugbase.analysis.util.HadoopFileSystem.getProperties(HadoopFileSystem.java:39)
+	at org.plugbase.analysis.config.Configuration.<clinit>(Configuration.java:66)
+	at org.plugbase.analysis.parser.Parser.main(Parser.java:413)
+2016-09-08 19:27:22,827 [org.plugbase.analysis.config.Configuration]-[INFO] Configuration Init!
+2016-09-08 19:27:23,046 [org.apache.hadoop.util.NativeCodeLoader]-[WARN] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-09-08 19:27:25,332 []-[WARN] Your hostname, Deep-20100325NL resolves to a loopback/non-reachable address: fe80:0:0:0:0:5efe:c0a8:7e01%net12, but we couldn't find any external IP address!
+2016-09-08 19:27:26,766 [org.apache.hadoop.util.Shell]-[ERROR] Failed to locate the winutils binary in the hadoop binary path
+java.io.IOException: Could not locate executable null\bin\winutils.exe in the Hadoop binaries.
+	at org.apache.hadoop.util.Shell.getQualifiedBinPath(Shell.java:278)
+	at org.apache.hadoop.util.Shell.getWinUtilsPath(Shell.java:300)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:293)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:76)
+	at org.apache.hadoop.conf.Configuration.getTrimmedStrings(Configuration.java:1546)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:519)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:453)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:136)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2433)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:364)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:166)
+	at org.plugbase.analysis.util.HadoopFileSystem.getProperties(HadoopFileSystem.java:39)
+	at org.plugbase.analysis.config.Configuration.<clinit>(Configuration.java:66)
+	at org.plugbase.analysis.parser.Parser.main(Parser.java:424)
+2016-09-08 19:27:47,141 [org.plugbase.analysis.config.Configuration]-[INFO] Configuration Init!
+2016-09-08 19:27:47,354 [org.apache.hadoop.util.NativeCodeLoader]-[WARN] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-09-08 19:27:49,652 []-[WARN] Your hostname, Deep-20100325NL resolves to a loopback/non-reachable address: fe80:0:0:0:0:5efe:c0a8:7e01%net12, but we couldn't find any external IP address!
+2016-09-08 19:27:50,539 [org.apache.hadoop.util.Shell]-[ERROR] Failed to locate the winutils binary in the hadoop binary path
+java.io.IOException: Could not locate executable null\bin\winutils.exe in the Hadoop binaries.
+	at org.apache.hadoop.util.Shell.getQualifiedBinPath(Shell.java:278)
+	at org.apache.hadoop.util.Shell.getWinUtilsPath(Shell.java:300)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:293)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:76)
+	at org.apache.hadoop.conf.Configuration.getTrimmedStrings(Configuration.java:1546)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:519)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:453)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:136)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2433)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:364)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:166)
+	at org.plugbase.analysis.util.HadoopFileSystem.getProperties(HadoopFileSystem.java:39)
+	at org.plugbase.analysis.config.Configuration.<clinit>(Configuration.java:66)
+	at org.plugbase.analysis.parser.Parser.main(Parser.java:424)
+2016-09-08 19:31:06,508 [org.plugbase.analysis.config.Configuration]-[INFO] Configuration Init!
+2016-09-08 19:31:06,731 [org.apache.hadoop.util.NativeCodeLoader]-[WARN] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-09-08 19:31:09,008 []-[WARN] Your hostname, Deep-20100325NL resolves to a loopback/non-reachable address: fe80:0:0:0:0:5efe:c0a8:7e01%net12, but we couldn't find any external IP address!
+2016-09-08 19:31:09,896 [org.apache.hadoop.util.Shell]-[ERROR] Failed to locate the winutils binary in the hadoop binary path
+java.io.IOException: Could not locate executable null\bin\winutils.exe in the Hadoop binaries.
+	at org.apache.hadoop.util.Shell.getQualifiedBinPath(Shell.java:278)
+	at org.apache.hadoop.util.Shell.getWinUtilsPath(Shell.java:300)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:293)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:76)
+	at org.apache.hadoop.conf.Configuration.getTrimmedStrings(Configuration.java:1546)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:519)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:453)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:136)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2433)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:364)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:166)
+	at org.plugbase.analysis.util.HadoopFileSystem.getProperties(HadoopFileSystem.java:39)
+	at org.plugbase.analysis.config.Configuration.<clinit>(Configuration.java:66)
+	at org.plugbase.analysis.parser.Parser.main(Parser.java:424)
+2016-09-08 19:31:28,474 [org.plugbase.analysis.config.Configuration]-[INFO] Configuration Init!
+2016-09-08 19:31:28,691 [org.apache.hadoop.util.NativeCodeLoader]-[WARN] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-09-08 19:31:30,989 []-[WARN] Your hostname, Deep-20100325NL resolves to a loopback/non-reachable address: fe80:0:0:0:0:5efe:c0a8:7e01%net12, but we couldn't find any external IP address!
+2016-09-08 19:31:31,884 [org.apache.hadoop.util.Shell]-[ERROR] Failed to locate the winutils binary in the hadoop binary path
+java.io.IOException: Could not locate executable null\bin\winutils.exe in the Hadoop binaries.
+	at org.apache.hadoop.util.Shell.getQualifiedBinPath(Shell.java:278)
+	at org.apache.hadoop.util.Shell.getWinUtilsPath(Shell.java:300)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:293)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:76)
+	at org.apache.hadoop.conf.Configuration.getTrimmedStrings(Configuration.java:1546)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:519)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:453)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:136)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2433)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:364)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:166)
+	at org.plugbase.analysis.util.HadoopFileSystem.getProperties(HadoopFileSystem.java:39)
+	at org.plugbase.analysis.config.Configuration.<clinit>(Configuration.java:66)
+	at org.plugbase.analysis.parser.Parser.main(Parser.java:424)
+2016-09-08 19:32:04,049 [org.plugbase.analysis.config.Configuration]-[INFO] Configuration Init!
+2016-09-08 19:32:04,252 [org.apache.hadoop.util.NativeCodeLoader]-[WARN] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-09-08 19:32:06,531 []-[WARN] Your hostname, Deep-20100325NL resolves to a loopback/non-reachable address: fe80:0:0:0:0:5efe:c0a8:7e01%net12, but we couldn't find any external IP address!
+2016-09-08 19:32:07,379 [org.apache.hadoop.util.Shell]-[ERROR] Failed to locate the winutils binary in the hadoop binary path
+java.io.IOException: Could not locate executable null\bin\winutils.exe in the Hadoop binaries.
+	at org.apache.hadoop.util.Shell.getQualifiedBinPath(Shell.java:278)
+	at org.apache.hadoop.util.Shell.getWinUtilsPath(Shell.java:300)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:293)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:76)
+	at org.apache.hadoop.conf.Configuration.getTrimmedStrings(Configuration.java:1546)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:519)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:453)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:136)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2433)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:364)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:166)
+	at org.plugbase.analysis.util.HadoopFileSystem.getProperties(HadoopFileSystem.java:39)
+	at org.plugbase.analysis.config.Configuration.<clinit>(Configuration.java:66)
+	at org.plugbase.analysis.parser.Parser.main(Parser.java:424)
+2016-09-08 19:32:53,562 [org.plugbase.analysis.config.Configuration]-[INFO] Configuration Init!
+2016-09-08 19:32:53,764 [org.apache.hadoop.util.NativeCodeLoader]-[WARN] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-09-08 19:32:56,091 []-[WARN] Your hostname, Deep-20100325NL resolves to a loopback/non-reachable address: fe80:0:0:0:0:5efe:c0a8:7e01%net12, but we couldn't find any external IP address!
+2016-09-08 19:32:56,932 [org.apache.hadoop.util.Shell]-[ERROR] Failed to locate the winutils binary in the hadoop binary path
+java.io.IOException: Could not locate executable null\bin\winutils.exe in the Hadoop binaries.
+	at org.apache.hadoop.util.Shell.getQualifiedBinPath(Shell.java:278)
+	at org.apache.hadoop.util.Shell.getWinUtilsPath(Shell.java:300)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:293)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:76)
+	at org.apache.hadoop.conf.Configuration.getTrimmedStrings(Configuration.java:1546)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:519)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:453)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:136)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2433)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:364)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:166)
+	at org.plugbase.analysis.util.HadoopFileSystem.getProperties(HadoopFileSystem.java:39)
+	at org.plugbase.analysis.config.Configuration.<clinit>(Configuration.java:66)
+	at org.plugbase.analysis.parser.Parser.main(Parser.java:424)
+2016-09-08 19:33:40,405 [org.plugbase.analysis.config.Configuration]-[INFO] Configuration Init!
+2016-09-08 19:33:40,616 [org.apache.hadoop.util.NativeCodeLoader]-[WARN] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-09-08 19:33:42,883 []-[WARN] Your hostname, Deep-20100325NL resolves to a loopback/non-reachable address: fe80:0:0:0:0:5efe:c0a8:7e01%net12, but we couldn't find any external IP address!
+2016-09-08 19:33:43,736 [org.apache.hadoop.util.Shell]-[ERROR] Failed to locate the winutils binary in the hadoop binary path
+java.io.IOException: Could not locate executable null\bin\winutils.exe in the Hadoop binaries.
+	at org.apache.hadoop.util.Shell.getQualifiedBinPath(Shell.java:278)
+	at org.apache.hadoop.util.Shell.getWinUtilsPath(Shell.java:300)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:293)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:76)
+	at org.apache.hadoop.conf.Configuration.getTrimmedStrings(Configuration.java:1546)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:519)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:453)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:136)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2433)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:364)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:166)
+	at org.plugbase.analysis.util.HadoopFileSystem.getProperties(HadoopFileSystem.java:39)
+	at org.plugbase.analysis.config.Configuration.<clinit>(Configuration.java:66)
+	at org.plugbase.analysis.parser.Parser.main(Parser.java:424)
